@@ -8,4 +8,13 @@ const users = [
 getActiveUsers = users => users.filter(user => (user.active === true))
 getValidUsers = users => users.filter(user => (user.age >= 18 && typeof user.age === "number")) 
 console.log(getValidUsers(users))
-//getAverageAge = users =>  let total = 0  let count =0 users.forEach( user => user.age)
+getAverageAge = users => {
+ let total = 0 
+ let count =0 
+ users.forEach( user => {total += user.age
+  count++
+ } 
+)
+return total/count;
+ }
+console.log(getAverageAge(users))
