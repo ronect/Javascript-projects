@@ -6,8 +6,6 @@ const users = [
 ];
 
 getActiveUsers = users => users.filter(user => (user.active === true))
-
-console.log(getActiveUsers(users))
-
-//getValidUsers = users => users.filter( user=> if (user.age > = 18 && typeof user.age === “number”)) 
+getValidUsers = users => users.filter(user => (user.age >= 18 && typeof user.age === "number")) 
+console.log(getValidUsers(users))
 //getAverageAge = users =>  let total = 0  let count =0 users.forEach( user => user.age)
