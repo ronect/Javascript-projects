@@ -30,7 +30,7 @@ const getAverageAge = users => {
   return Math.floor(total / count);
 };
 
-// Summerizes all the data 
+// Summerizes all the data of valid users 
 const summary = users => {
   const validUsers = getValidUsers(users);
   const activeUsers = getActiveUsers(validUsers);
