@@ -5,6 +5,6 @@ JavaScript projects is a small (but growing) repository of projects built to dem
 1. One goal of this repository is to showcase my understanding of JavaScript by building functional, readable, and well-documented code, rather than focusing on UI or styling.
 2. Another goal is to learn github and markdown more efficiently through this process to be job ready 👍
 
-#Projects (so far)
+# Projects (so far)
 1. Credit-card-checker
 2. Data-leaner
